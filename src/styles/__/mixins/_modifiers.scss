@@ -1,0 +1,11 @@
+@use 'styles/__/$' as *;
+
+@mixin interactive {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.1s;
+
+  &:hover {
+    color: $c-f-accents;
+  }
+}

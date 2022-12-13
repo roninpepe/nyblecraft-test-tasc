@@ -1,0 +1,20 @@
+[
+	{
+		"uid": 0,
+		"message": "#Welcome to notes app!",
+		"tags": [{ "state": 1, "keyword": "welcome" }]
+	},
+	{
+		"uid": 1,
+		"message": "1. When you fill an empty note with some text, it will be added to localStorage as JSON. Also you can import/export your notes as .json file (buttons next to searchbar).\n2. To save your changes, just tap or click outside the input field, or press 'Esc', 'Tab' or 'Ctrl'+'Enter'.\n3. You can add #hashtags to your note for easier searching by using '#hashtag' in the address bar or search bar. Just enter your #hashtag into the note (yellow tags), or add the tags manually below the text field ('+' button, blue tags).\n4. You can remove tags by clicking '-' before the tag. Tags that were manually added and removed later will be highlighted based on the text of the note.\n5. Tags that have been removed manually will never be highlighted automatically. To reset the state of a tag, just add it again and remove it manually.\n6. To delete a note, click contrast bottom right corner or delete all text from the text field.",
+		"tags": [
+			{ "state": 2, "keyword": "howto" },
+			{ "state": 0, "keyword": "hashtag" }
+		]
+	},
+	{
+		"uid": 2,
+		"message": "Just click to blank note and #start typing!",
+		"tags": [{ "state": 2, "keyword": "start" }]
+	}
+]
